@@ -34,10 +34,15 @@ export function SodaCan({
   const labels = useTexture(flavorTextures);
 
   // Fixes upside down labels
+  // eslint-disable-next-line
   labels.strawberryLemonade.flipY = false;
+  // eslint-disable-next-line
   labels.blackCherry.flipY = false;
+  // eslint-disable-next-line
   labels.watermelon.flipY = false;
+  // eslint-disable-next-line
   labels.grape.flipY = false;
+  // eslint-disable-next-line
   labels.lemonLime.flipY = false;
 
   const label = labels[flavor];
