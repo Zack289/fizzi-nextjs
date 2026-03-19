@@ -121,7 +121,7 @@ function Scene({}: Props) {
         <FloatingCan
           ref={can1Ref}
           flavor="blackCherry"
-          floatSpped={FLOAT_SPEED}
+          floatSpeed={FLOAT_SPEED}
         />
       </group>
 
@@ -129,19 +129,19 @@ function Scene({}: Props) {
         <FloatingCan
           ref={can2Ref}
           flavor="lemonLime"
-          floatSpped={FLOAT_SPEED}
+          floatSpeed={FLOAT_SPEED}
         />
       </group>
 
-      <FloatingCan ref={can3Ref} flavor="grape" floatSpped={FLOAT_SPEED} />
+      <FloatingCan ref={can3Ref} flavor="grape" floatSpeed={FLOAT_SPEED} />
 
       <FloatingCan
         ref={can4Ref}
         flavor="strawberryLemonade"
-        floatSpped={FLOAT_SPEED}
+        floatSpeed={FLOAT_SPEED}
       />
 
-      <FloatingCan ref={can5Ref} flavor="watermelon" floatSpped={FLOAT_SPEED} />
+      <FloatingCan ref={can5Ref} flavor="watermelon" floatSpeed={FLOAT_SPEED} />
 
       {/* <OrbitControls /> */}
       <Environment files="hdr/lobby.hdr" environmentIntensity={1.5} />
