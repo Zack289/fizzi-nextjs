@@ -14,7 +14,7 @@ import gsap from "gsap";
 
 import FloatingCan from "@/components/FloatingCan";
 import { SodaCanProps } from "@/components/SodaCan";
-
+import { WavyCircles } from "./WavyCircles";
 import { ArrowIcon } from "./ArrowIcon";
 
 const SPINS_ON_CHANGE = 8;
@@ -88,6 +88,7 @@ const Carousel = ({ slice }: CarouselProps): JSX.Element => {
     >
       <div className="background pointer-events-none absolute inset-0 bg-[#710523] opacity-50" />
 
+      <WavyCircles className="absolute left-1/2 top-1/2 h-[120vmin] -translate-x-1/2 -translate-y-1/2 text-[#710523]" />
 
       <h2 className="relative text-center text-5xl font-bold">
         <PrismicText field={slice.primary.heading} />
